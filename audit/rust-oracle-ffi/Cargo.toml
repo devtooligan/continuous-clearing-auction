@@ -1,0 +1,20 @@
+[package]
+name = "cca-oracle"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[[bin]]
+name = "cca-oracle"
+path = "main.rs"
+
+[dependencies]
+num-bigint = "0.4"
+num-integer = "0.1"
+num-rational = "0.4"
+num-traits = "0.2"
+
+[dev-dependencies]
+proptest = "1"
